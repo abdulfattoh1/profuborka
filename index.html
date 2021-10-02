@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+        integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/main.min.css">
+    <title>ProfUborka</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="nav">
+                <a href="" class="nav_logo"><img src="images/profuborka.webp" alt=""></a>
+                <ul class="nav_bar">
+                    <li><a href="" class="nav_link hvr-underline-from-center">Главная</a></li>
+                    <li><a href="" class="nav_link hvr-underline-from-center">Наши услуги</a></li>
+                    <li><a href="" class="nav_link hvr-underline-from-center">Акции</a></li>
+                    <li><a href="" class="nav_link hvr-underline-from-center">Как мы работаем</a></li>
+                </ul>
+                <ul class="nav_list">
+                    <a href="tel:+99871200-03-28" class="nav_list__num">+998 (71) 200-03-28</a>
+                    <button class="nav_list__modal" id="modal">Заказать звонок</button>
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+            <div class="h-content">
+                <div class="h-content__list">
+                    <h1 class="h-content__title">
+                        ПОСЛЕСТРОИТЕЛЬНАЯ <br>
+                        <span>УБОРКА ЧАСТНЫХ </span><br>
+                        ДОМОВ В ТАШКЕНТЕ
+                    </h1>
+                    <p class="h-content__text">Profuborka.uz - флагман точности, <br> дисциплины, ответственности,
+                        доверия.</p>
+                    <a href="" class="h-content__href">Заказать уборку</a>
+
+                    <div data-modal class="h-content_modal">
+                        <div class="h-content_modal__content">
+                            <form action="mail.php" method="POST" class="modal__dialog">
+
+                                <div data-close class="d-flex s-between a-center">
+                                    <legend>Регистрация</legend>
+                                    <p reg-close class="modal__close">&#215;</p>
+                                </div>
+                                <div class="form_group">
+                                    <label for="">Ваше имя:</label>
+                                    <input type="text" id="name" class="form_group__control"
+                                        placeholder="Например, Иван" name="user_name">
+                                </div>
+                                <div class="form_group">
+                                    <label for="">Ваше номер:</label>
+                                    <input type="text" id="" class="form_group__control" placeholder="+998 99 800 88 66"
+                                        name="user_phone">
+                                </div>
+                                <div class="form_group">
+                                    <label for="">Ваше e-mail:</label>
+                                    <input type="text" id="email" class="form_group__control"
+                                        placeholder="mail@gmail.com" name="user_email">
+                                </div>
+                                <div class="d-flex j-center">
+                                    <button type="submit" name="btn" class="form_group__btn ">Отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="images/h-content.webp" alt="">
+            </div>
+        </div>
+
+    </header>
+
+
+    <main class="main">
+        <section class="service">
+            <div class="wrapper">
+                <h2 class="service__title">
+                    Наши услуги
+                </h2>
+                <div class="service__content">
+                    <div class="service__content_card">
+                        <img src="images/service1.webp" alt="">
+                        <h3 class="service__content_title">Очистка всех <br> поверхностей</h3>
+                        <p class="service__content_text">От пыли и строительного мусора и пятен. Дом будет обеспылен и
+                            очищен
+                            без повреждения интерьера и
+                            экстерьера</p>
+                    </div>
+                    <div class="service__content_card">
+                        <img src="images/service2.webp" alt="">
+                        <h3 class="service__content_title">Мойка люстр на высоте</h3>
+                        <p class="service__content_text">Одна из сложных специализированных работ.</p>
+                    </div>
+                    <div class="service__content_card">
+                        <img src="images/service3.webp" alt="">
+                        <h3 class="service__content_title">Уборка двора
+                            дома</h3>
+                        <p class="service__content_text">Все, что вы видите во дворе будет чистым. При вашем желании
+                            можем
+                            нанести защитные средства.</p>
+                    </div>
+                    <div class="service__content_card">
+                        <div class="service__content_img">
+                            <img src="images/service4.webp" alt="">
+                        </div>
+
+                        <h3 class="service__content_title">от А до Я</h3>
+                        <p class="service__content_text">Уборку после строительства проводим от А до Я. Не найдете
+                            такого места
+                            , которого не коснулась рука клинера.</p>
+                    </div>
+                </div>
+                <div class="center">
+                    <button class="service__btn">Подробнее</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="stock">
+            <div class="wrapper">
+                <h2 class="stock__title">В чем выгода обращения в profuborka?</h2>
+                <p class="stock__text">
+                    Profuborka.uz - флагман точности, дисциплины,<br> ответственности, доверия. За счет этого вы
+                    получаете:
+                </p>
+                <div class="stock__content">
+                    <div class="stock__content_card hvr-shutter-out-horizontal">
+                        <div class="svg">
+                            <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M37.9778 32.945L30.1698 27.089V15.1604C30.1698 13.961 29.2003 12.9915 28.0009 12.9915C26.8015 12.9915 25.832 13.961 25.832 15.1604V28.1736C25.832 28.8567 26.153 29.501 26.6996 29.9087L35.375 36.4153C35.7654 36.7081 36.2209 36.8491 36.6742 36.8491C37.3357 36.8491 37.9863 36.5519 38.4115 35.9793C39.1317 35.0228 38.9365 33.6629 37.9778 32.945Z"
+                                    fill="#FF6A04" />
+                                <path
+                                    d="M28 0C12.5599 0 0 12.5599 0 28C0 43.4401 12.5599 56 28 56C43.4401 56 56 43.4401 56 28C56 12.5599 43.4401 0 28 0ZM28 51.6623C14.9543 51.6623 4.3377 41.0457 4.3377 28C4.3377 14.9543 14.9543 4.3377 28 4.3377C41.0479 4.3377 51.6623 14.9543 51.6623 28C51.6623 41.0457 41.0457 51.6623 28 51.6623Z"
+                                    fill="#FF6A04" />
+                            </svg>
+                        </div>
+
+                        <!-- <img src="../../../images/stock/profit-item-hover-icon-1.svg" alt=""> -->
+                        <p class="stock__content_text">Работу начинаем и заканчиваем <br>
+                            с строго оговоренные сроки</p>
+                    </div>
+                    <div class="stock__content_card hvr-shutter-out-horizontal">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M37.9531 19.6875C37.0471 19.6875 36.3125 20.4221 36.3125 21.3281V28.1094C36.3125 34.4419 41.4644 39.5938 47.7969 39.5938C48.7029 39.5938 49.4375 38.8592 49.4375 37.9531V31.3906C49.4375 25.1046 44.3597 19.6875 37.9531 19.6875ZM46.1562 36.1477C42.4167 35.3854 39.5938 32.0707 39.5938 28.1094V23.1459C43.286 23.9513 46.1562 27.4003 46.1562 31.3906V36.1477Z"
+                                fill="#FF6A04" />
+                            <path
+                                d="M39.5938 13.2012V8.20312C39.5938 7.29706 38.8592 6.5625 37.9531 6.5625H36.3125V1.64062C36.3125 0.734562 35.5779 0 34.6719 0H28.1094C27.2033 0 26.4688 0.734562 26.4688 1.64062V6.5625H24.8281C23.9221 6.5625 23.1875 7.29706 23.1875 8.20312V14.1153C21.0948 16.4603 19.9062 19.5848 19.9062 22.7967V26.4688H8.20312C3.67992 26.4688 0 30.1487 0 34.6719C0 37.3524 1.29259 39.7365 3.28694 41.2344C1.29259 42.7323 0 45.1163 0 47.7969C0 52.3201 3.67992 56 8.20312 56H47.7969C52.3201 56 56 52.3201 56 47.7969V31.3906C56 21.9124 48.7396 14.0407 39.5938 13.2012ZM29.75 3.28125H33.0312V6.5625H29.75V3.28125ZM26.4688 9.84375H36.3125V13.125H26.4688V9.84375ZM3.28125 34.6719C3.28125 31.958 5.4892 29.75 8.20312 29.75H19.9062V33.0312H8.20312C7.29706 33.0312 6.5625 33.7658 6.5625 34.6719C6.5625 35.5779 7.29706 36.3125 8.20312 36.3125H19.9062V39.5938H8.20312C5.4892 39.5938 3.28125 37.3858 3.28125 34.6719ZM8.20312 52.7188C5.4892 52.7188 3.28125 50.5108 3.28125 47.7969C3.28125 45.083 5.4892 42.875 8.20312 42.875H19.9062V46.1562H8.20312C7.29706 46.1562 6.5625 46.8908 6.5625 47.7969C6.5625 48.7029 7.29706 49.4375 8.20312 49.4375H20.0713C20.3183 50.6492 20.8333 51.7645 21.5514 52.7188H8.20312ZM52.7188 47.7969C52.7188 50.5108 50.5108 52.7188 47.7969 52.7188C47.1438 52.7188 29.2265 52.7188 28.1094 52.7188C25.3955 52.7188 23.1875 50.5108 23.1875 47.7969V22.7966C23.1875 20.4341 24.0412 18.1421 25.5449 16.4062H37.9531C46.0949 16.4062 52.7188 23.1282 52.7188 31.3906V47.7969Z"
+                                fill="#FF6A04" />
+                        </svg>
+
+                        <p class="stock__content_text">Делаем тщательную и аккуратную <br> уборку с вниманием к деталям
+                        </p>
+                    </div>
+                    <div class="stock__content_card hvr-shutter-out-horizontal">
+                        <div class="d-flex a-center"> <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M52.2761 28.7253C52.0508 28.2643 52.0508 27.7356 52.2761 27.2747L54.3648 23.0019C55.5276 20.6229 54.6063 17.7874 52.2672 16.5463L48.0661 14.3173C47.6129 14.0769 47.3021 13.649 47.2134 13.1438L46.3918 8.45942C45.9343 5.85127 43.5217 4.09866 40.9003 4.46955L36.1914 5.13564C35.6832 5.20739 35.1806 5.04398 34.8119 4.68731L31.3939 1.3807C29.4906 -0.460505 26.5091 -0.460615 24.606 1.3807L21.1878 4.68764C20.819 5.04442 20.3164 5.2075 19.8083 5.13596L15.0994 4.46987C12.4771 4.09877 10.0654 5.8516 9.6079 8.45974L8.78628 13.1439C8.69758 13.6492 8.38685 14.077 7.93371 14.3175L3.73264 16.5466C1.39356 17.7875 0.472192 20.6233 1.63506 23.0023L3.72356 27.2749C3.94887 27.7359 3.94887 28.2646 3.72356 28.7255L1.63495 32.9981C0.472083 35.3771 1.39345 38.2126 3.73253 39.4537L7.9336 41.6828C8.38685 41.9232 8.69758 42.351 8.78628 42.8562L9.6079 47.5406C10.0244 49.9149 12.0603 51.5801 14.4001 51.5798C14.6306 51.5798 14.8644 51.5637 15.0995 51.5304L19.8084 50.8643C20.3162 50.7922 20.8191 50.956 21.1879 51.3126L24.606 54.6192C25.5577 55.54 26.7786 56.0002 27.9999 56.0001C29.2208 56 30.4424 55.5397 31.3937 54.6192L34.8119 51.3126C35.1807 50.956 35.6834 50.793 36.1914 50.8643L40.9003 51.5304C43.5229 51.9014 45.9343 50.1487 46.3918 47.5405L47.2135 42.8564C47.3022 42.351 47.613 41.9233 48.0661 41.6828L52.2672 39.4537C54.6063 38.2128 55.5276 35.377 54.3648 32.998L52.2761 28.7253ZM50.7533 36.6005L46.5523 38.8295C45.2129 39.5403 44.2942 40.8045 44.0323 42.2981L43.2107 46.9824C43.0559 47.8648 42.2401 48.4575 41.3527 48.3323L36.6438 47.6662C35.1421 47.4535 33.6562 47.9368 32.5662 48.9911L29.1481 52.2976C28.5043 52.9203 27.4955 52.9203 26.8515 52.2976L23.4335 48.9909C22.5123 48.0999 21.3081 47.617 20.051 47.617C19.8206 47.617 19.5884 47.6332 19.3559 47.6661L14.647 48.3322C13.7604 48.4575 12.9439 47.8647 12.7891 46.9823L11.9673 42.2979C11.7053 40.8043 10.7867 39.54 9.44723 38.8294L5.24616 36.6004C4.45473 36.1805 4.14301 35.2211 4.53643 34.4163L6.62505 30.1435C7.29092 28.7812 7.29092 27.2187 6.62505 25.8563L4.53643 21.5836C4.14301 20.7787 4.45473 19.8194 5.24616 19.3995L9.44723 17.1704C10.7866 16.4596 11.7053 15.1955 11.9672 13.7018L12.7888 9.01755C12.9437 8.13512 13.7594 7.54231 14.6468 7.66765L19.3557 8.33374C20.8568 8.54626 22.3433 8.06315 23.4333 7.00889L26.8514 3.70228C27.4952 3.07951 28.504 3.07951 29.148 3.70228L32.566 7.00889C33.6559 8.06326 35.1422 8.54626 36.6436 8.33374L41.3525 7.66765C42.2392 7.5422 43.0557 8.13512 43.2104 9.01755L44.0321 13.702C44.2941 15.1956 45.2126 16.4598 46.5522 17.1704L50.7532 19.3995C51.5447 19.8194 51.8564 20.7787 51.463 21.5836L49.3743 25.8562C48.7085 27.2184 48.7085 28.7812 49.3743 30.1434L51.463 34.416C51.8565 35.2211 51.5448 36.1806 50.7533 36.6005Z"
+                                        fill="#FF6A04" />
+                                    <path
+                                        d="M39.7993 16.2001C39.1687 15.5694 38.1461 15.5694 37.5154 16.2001L16.1996 37.5161C15.5689 38.1467 15.5689 39.1693 16.1996 39.7999C16.5149 40.1152 16.9282 40.273 17.3414 40.273C17.7546 40.273 18.1681 40.1154 18.4833 39.7999L39.7992 18.4841C40.43 17.8533 40.43 16.8309 39.7993 16.2001Z"
+                                        fill="#FF6A04" />
+                                    <path
+                                        d="M21.5386 13.4658C18.2736 13.4658 15.6172 16.1221 15.6172 19.3872C15.6172 22.6522 18.2736 25.3086 21.5386 25.3086C24.8036 25.3086 27.46 22.6522 27.46 19.3872C27.46 16.1221 24.8036 13.4658 21.5386 13.4658ZM21.5386 22.0787C20.0545 22.0787 18.8471 20.8713 18.8471 19.3871C18.8471 17.903 20.0545 16.6956 21.5386 16.6956C23.0227 16.6956 24.2302 17.903 24.2302 19.3871C24.2301 20.8713 23.0227 22.0787 21.5386 22.0787Z"
+                                        fill="#FF6A04" />
+                                    <path
+                                        d="M34.4605 30.6915C31.1954 30.6915 28.5391 33.3479 28.5391 36.6129C28.5391 39.878 31.1954 42.5344 34.4605 42.5344C37.7255 42.5344 40.3819 39.878 40.3819 36.6129C40.3819 33.3479 37.7255 30.6915 34.4605 30.6915ZM34.4605 39.3044C32.9764 39.3044 31.7689 38.0971 31.7689 36.6129C31.7689 35.1288 32.9763 33.9215 34.4605 33.9215C35.9446 33.9215 37.152 35.1288 37.152 36.6129C37.152 38.0971 35.9446 39.3044 34.4605 39.3044Z"
+                                        fill="#FF6A04" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="56" height="56" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            <h3 class="stock__content_title">Бонус от компании</h3>
+                        </div>
+
+                        <p class="stock__content_text">Работу начинаем и заканчиваем <br>
+                            с строго оговоренные сроки</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="clean">
+            <div class="wrapper">
+                <h2 class="stock__title">Чистка твердых покрытий:</h2>
+                <div class="clean_content">
+                    <div class="clean_content__card">
+                        <img src="images/clean/clean1.webp" alt="">
+                        <h3 class="clean_content__title">ТРАВЕРТИН</h3>
+                        <p class="clean_content__text">Чистка травертина + защитное <br> средство</p>
+                    </div>
+                    <div class="clean_content__card">
+                        <div class="clean_content__card">
+                            <img src="images/clean/clean2.webp" alt="">
+                            <h3 class="clean_content__title">ГРАНИТ</h3>
+                            <p class="clean_content__text">Чистка гранита по спец. <br> технологии + защитная <br>
+                                полироль</p>
+                        </div>
+                    </div>
+                    <div class="clean_content__card">
+                        <div class="clean_content__card">
+                            <img src="images/clean/clean3.webp" alt="">
+                            <h3 class="clean_content__title">БРУСЧАТКА</h3>
+                            <p class="clean_content__text">Чистка + нанесение <br> уникального спец. средства.</p>
+                        </div>
+                    </div>
+                    <div class="clean_content__card">
+                        <div class="clean_content__card">
+                            <img src="images/clean/clean4.webp" alt="">
+                            <h3 class="clean_content__title">КИРПИЧ</h3>
+                            <p class="clean_content__text">Чистка кирпича по спец. <br> технологии + гидрофобизатор</p>
+                        </div>
+                    </div>
+                    <div class="clean_content__card">
+                        <div class="clean_content__card">
+                            <img src="images/clean/clean5.webp" alt="">
+                            <h3 class="clean_content__title">КАФЕЛЬ</h3>
+                            <p class="clean_content__text">Чистка кирпича по спец. <br> технологии + гидрофобизатор</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="garanty">
+            <div class="wrapper garanty__container">
+                <div class="garanty_content">
+                    <h2 class="garanty__title">
+                        Гарантия!
+                    </h2>
+                    <p class="garanty__text">
+                        Мы реальная, твердая компания и мы не боимся давать гарантии.
+                    </p>
+                    <P class="garanty__des">
+                        Если, мы не выполнили работу в строго оговоренные сроки <strong>мы вернем деньги
+                            обратно.</strong>
+                        <span>
+                            (при соблюдении всех условий с вашей стороны)
+                        </span>
+                    </P>
+                    <button class="garanty__btn">Позвонить</button>
+                </div>
+                <div class="garanty__img">
+                    <img src="images/garanty.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <aside class="works">
+            <div class="wrapper works__container">
+                <h2 class="stock__title">Как мы работаем?</h2>
+                <div class="works__content">
+                    <div class="works__content_des"><span>1</span>
+                        <p class="works__content_text"> Вы оставляете заявку на сайте <br>
+                            или звоните по телефону <br>
+                            <strong><a href="tel:+998903255888">+998 (90) 325-58-88</a></strong>
+                        </p>
+                    </div>
+                    <div class="works__content_des"><span>2</span>
+                        <p class="works__content_text"> Вы оставляете заявку на сайте <br>
+                            или звоните по телефону <br>
+                            <strong><a href="tel:+998903255888">+998 (90) 325-58-88</a></strong>
+                        </p>
+                    </div>
+                    <div class="works__content_des"><span>3</span>
+                        <p class="works__content_text"> Вы оставляете заявку на сайте <br>
+                            или звоните по телефону <br>
+                            <strong><a href="tel:+998903255888">+998 (90) 325-58-88</a></strong>
+                        </p>
+                    </div>
+                    <div class="works__content_des"><span>4</span>
+                        <p class="works__content_text"> Вы оставляете заявку на сайте <br>
+                            или звоните по телефону <br>
+                            <strong><a href="tel:+998903255888">+998 (90) 325-58-88</a></strong>
+                        </p>
+                    </div>
+                    <img src="images/works.webp" alt="" class="works__content_img">
+                </div>
+            </div>
+        </aside>
+        <aside class="slider">
+            <div class="wrapper slider__container">
+                <div class="slider__left">
+                    <div class="slider__left_contain">
+                        <div class="row">
+
+                            <h2 class="slider__left_title">5 проблем</h2>
+                            <p class="slider__left_text">с которыми сталкиваются 80% заказчиков <br> клининговых услуг
+                            </p>
+                        </div>
+                        <div class="slider__icons">
+                            <i class="fas icon-left"></i>
+                            <span class="icon_num">
+                                <span id="current">01</span>
+                                /
+                                <span id="total">04</span>
+                            </span>
+                            <i class="fas icon-right"></i>
+                        </div>
+                    </div>
+                    <div class="slider__wrapper">
+
+                        <div class="slider__item">
+                            <div class="slider__item_list slider__item_list2">
+                                <p class="slider__item_text">Проблема</p>
+                                <h3 class="slider__item_title">Медленное обслуживание?</h3>
+                                <p class="slider__item_des">Не можете дозвониться до клининговой компании с первого
+                                    раза? Вас не
+                                    могут быстро проконсультировать и заставляют долго
+                                    ждать?</p>
+                            </div>
+                            <div class="slider__item_list">
+                                <p class="slider__item_text">Решение</p>
+                                <h3 class="slider__item_title">Быстрое обслуживание.</h3>
+                                <p class="slider__item_des">Позвонив нам, Вы сэкономите драгоценное время, получив
+                                    быстрое
+                                    обслуживание, бесплатную консультацию в
+                                    кратчайший срок и оперативную организацию бригады под Ваш заказ.</p>
+                            </div>
+                            <div class="slider__item_list slider__item_list2">
+                                <p class="slider__item_text">Проблема</p>
+                                <h3 class="slider__item_title">Медленное обслуживание?</h3>
+                                <p class="slider__item_des">Не можете дозвониться до клининговой компании с первого
+                                    раза? Вас не
+                                    могут быстро проконсультировать и заставляют долго
+                                    ждать?</p>
+                            </div>
+                            <div class="slider__item_list">
+                                <p class="slider__item_text">Решение</p>
+                                <h3 class="slider__item_title">Быстрое обслуживание.</h3>
+                                <p class="slider__item_des">Позвонив нам, Вы сэкономите драгоценное время, получив
+                                    быстрое
+                                    обслуживание, бесплатную консультацию в
+                                    кратчайший срок и оперативную организацию бригады под Ваш заказ.</p>
+                            </div>
+                            <div class="slider__item_list slider__item_list2">
+                                <p class="slider__item_text">Проблема</p>
+                                <h3 class="slider__item_title">Медленное обслуживание?</h3>
+                                <p class="slider__item_des">Не можете дозвониться до клининговой компании с первого
+                                    раза? Вас не
+                                    могут быстро проконсультировать и заставляют долго
+                                    ждать?</p>
+                            </div>
+                            <div class="slider__item_list">
+                                <p class="slider__item_text">Решение</p>
+                                <h3 class="slider__item_title">Быстрое обслуживание.</h3>
+                                <p class="slider__item_des">Позвонив нам, Вы сэкономите драгоценное время, получив
+                                    быстрое
+                                    обслуживание, бесплатную консультацию в
+                                    кратчайший срок и оперативную организацию бригады под Ваш заказ.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__right">
+                    <h2 class="slider__right_title">Не нашли ответ на свой вопрос? <br>
+                        Позвоните или напишите нам, <br>
+                        мы всё расскажем</h2>
+                    <a href="tel:+998712000328" class="slider__right_tel">+998 (71) 200-03-28</a>
+                    <button class="slider__right_btn">Позвонить</button>
+                    <img src="images/slider_img.webp" alt="slider_img" class="slider__right_img">
+                </div>
+
+            </div>
+        </aside>
+        <section class="performance">
+            <i class="fas icon-left performance_icon left"></i>
+            <div class="wrapper">
+                <h2 class="stock__title">Выполненные объекты</h2>
+                <div class="performance__content">
+                    <div class="performance__content_field">
+                        <img src="images/performance.webp" alt="" class="performance_img">
+                        <img src="images/performance2.webp" alt="">
+                        <img src="images/performance.webp" alt="" class="performance_img">
+                        <img src="images/performance2.webp" alt="">
+                        <img src="images/performance.webp" alt="" class="performance_img">
+                        <img src="images/performance2.webp" alt="">
+
+                    </div>
+                    <ul class="performance__ul">
+                        <li class="performance__ul_li active" data-num="0"></li>
+                        <li class="performance__ul_li" data-num="2"></li>
+                        <li class="performance__ul_li" data-num="3"></li>
+                        <li class="performance__ul_li" data-num="4"></li>
+                        <li class="performance__ul_li" data-num="5"></li>
+                        <li class="performance__ul_li" data-num="6"></li>
+                    </ul>
+                </div>
+            </div>
+            <i class="fas icon-right performance_icon right"></i>
+        </section>
+        <section class="video">
+            <div class="wrapper">
+                <div class="video__content">
+                    <h2 class="video__title">Видеогалерея</h2>
+                    <div class="video__des">
+                        <img src="images/video/video.webp" alt="">
+                        <img src="images/video/video2.webp" alt="">
+                        <img src="images/video/video3.webp" alt="">
+                        <img src="images/video/video3.webp" alt="">
+                        <img src="images/video/video04.webp" alt="">
+                        <img src="images/video/video06.webp" alt="">
+                    </div>
+                    <button class="video__btn">Еще больше видео у нас в инстаграме</button>
+                </div>
+            </div>
+
+        </section>
+        <aside class="about">
+            <i class="fas icon-left performance_icon about_left"></i>
+            <div class="wrapper">
+                <h2 class="about__title">Отзывы о нас</h2>
+                <div class="about_content">
+                    <div class="about_content__field">
+                        <div class="about_content__card">
+                            <div class="d-flex">
+                                <img src="images/about/about.webp" alt="">
+                                <div>
+                                    <h2 class="about_content__title"> Анвар Муминов</h2>
+                                    <div class="d-flex ">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about_content__text">После каждого сезона дождей и осадок стоял вопрос, менять
+                                кафель во
+                                дворе
+                                или вызвать профессионалов по чистке? Естественно, менять кафель очень накладно. Вызвал
+                                специалистов. Остался довольным качеством и стоимостью работ. К свадьбе сына мой двор
+                                блестел.
+                            </p>
+                            <div class="d-flex">
+                                <img src="images/about/clock.webp" alt="">
+                                <p class="about_content__clock">22 июль 2021</p>
+                            </div>
+                        </div>
+                        <div class="about_content__card">
+                            <div class="d-flex">
+                                <img src="images/about/about2.webp" alt="">
+                                <div>
+                                    <h2 class="about_content__title">Тимур Тимурович</h2>
+                                    <div class="d-flex ">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about_content__text">После каждого сезона дождей и осадок стоял вопрос, менять
+                                кафель во
+                                дворе
+                                или вызвать профессионалов по чистке? Естественно, менять кафель очень накладно. Вызвал
+                                специалистов. Остался довольным качеством и стоимостью работ. К свадьбе сына мой двор
+                                блестел.
+                            </p>
+                            <div class="d-flex">
+                                <img src="images/about/clock.webp" alt="">
+                                <p class="about_content__clock">22 июль 2021</p>
+                            </div>
+                        </div>
+                        <div class="about_content__card">
+                            <div class="d-flex">
+                                <img src="images/about/about3.webp" alt="">
+                                <div>
+                                    <h2 class="about_content__title">Ойбек</h2>
+                                    <div class="d-flex ">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about_content__text">После каждого сезона дождей и осадок стоял вопрос, менять
+                                кафель во
+                                дворе
+                                или вызвать профессионалов по чистке? Естественно, менять кафель очень накладно. Вызвал
+                                специалистов. Остался довольным качеством и стоимостью работ. К свадьбе сына мой двор
+                                блестел.
+                            </p>
+                            <div class="d-flex">
+                                <img src="images/about/clock.webp" alt="">
+                                <p class="about_content__clock">22 июль 2021</p>
+                            </div>
+                        </div>
+                        <div class="about_content__card">
+                            <div class="d-flex">
+                                <img src="images/about/about.webp" alt="">
+                                <div>
+                                    <h2 class="about_content__title"> Анвар Муминов</h2>
+                                    <div class="d-flex ">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about_content__text">После каждого сезона дождей и осадок стоял вопрос, менять
+                                кафель во
+                                дворе
+                                или вызвать профессионалов по чистке? Естественно, менять кафель очень накладно. Вызвал
+                                специалистов. Остался довольным качеством и стоимостью работ. К свадьбе сына мой двор
+                                блестел.
+                            </p>
+                            <div class="d-flex">
+                                <img src="images/about/clock.webp" alt="">
+                                <p class="about_content__clock">22 июль 2021</p>
+                            </div>
+                        </div>
+                        <div class="about_content__card">
+                            <div class="d-flex">
+                                <img src="images/about/about2.webp" alt="">
+                                <div>
+                                    <h2 class="about_content__title">Тимур Тимурович</h2>
+                                    <div class="d-flex ">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about_content__text">После каждого сезона дождей и осадок стоял вопрос, менять
+                                кафель во
+                                дворе
+                                или вызвать профессионалов по чистке? Естественно, менять кафель очень накладно. Вызвал
+                                специалистов. Остался довольным качеством и стоимостью работ. К свадьбе сына мой двор
+                                блестел.
+                            </p>
+                            <div class="d-flex">
+                                <img src="images/about/clock.webp" alt="">
+                                <p class="about_content__clock">22 июль 2021</p>
+                            </div>
+                        </div>
+                        <div class="about_content__card">
+                            <div class="d-flex">
+                                <img src="images/about/about3.webp" alt="">
+                                <div>
+                                    <h2 class="about_content__title">Ойбек</h2>
+                                    <div class="d-flex ">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star.webp" alt="">
+                                        <img src="images/about/star2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about_content__text">После каждого сезона дождей и осадок стоял вопрос, менять
+                                кафель во
+                                дворе
+                                или вызвать профессионалов по чистке? Естественно, менять кафель очень накладно. Вызвал
+                                специалистов. Остался довольным качеством и стоимостью работ. К свадьбе сына мой двор
+                                блестел.
+                            </p>
+                            <div class="d-flex">
+                                <img src="images/about/clock.webp" alt="">
+                                <p class="about_content__clock">22 июль 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <i class="fas icon-right performance_icon about_right"></i>
+        </aside>
+        <section class="history">
+            <div class="wrapper">
+                <div class="history_content">
+                    <div class="history__des">
+                        <div class="history__desTop">
+                            <img src="images/historyImg2.webp" alt="" class="history__left">
+                            <p class="history__text">
+
+                                Вы пытаетесь навести чистоту в вашем красивом новом доме, который заканчиваете строить,
+                                но уже
+                                понимаете,
+                                что выбрать клининговую компанию, просто сравнивая цены, слишком рискованно, так как у
+                                вас
+                                дорогой
+                                дизайн!
+                                <span>
+                                    <span>Тогда</span> вам стоит узнать о возможности клининга, как не просто навести
+                                    идеальную
+                                    чистоту, но и
+                                    подчеркнуть
+                                    достоинства вашего интерьера. И наконец-то въехать всей семьей!
+
+                                </span>
+                                Откуда я все это знаю?
+                            </p>
+                            <img src="images/history1.webp" alt="" class="history__right">
+                        </div>
+                        <div class="history__desBottom">
+                            <p class="history__desBottom_text">Приятно познакомиться, меня зовут Елена, я владелица
+                                клининговой
+                                компании <br>
+                                "ПрофУборка". И я хочу рассказать историю нашего клиента.</p>
+                            <div class="text-right">
+                                <button class="history__desBottom_btn">
+                                    История
+                                </button>
+                            </div>
+                            <div class="modal" data-modal>
+                                <div class="modal__dialog">
+                                    <div class="modal__content">
+                                        <div data-close class="modal__close_width">
+                                            <p class="modal__close">&#215;</p>
+                                        </div>
+                                        <h2 class="modal__title">История</h2>
+                                        <p class="modal__text">Меня зовут Тимур. Я успешный бизнесмен.
+                                            Недели 2 назад я закончил строительство дома. О таком доме мы столько
+                                            мечтали.
+                                            Он большой, комфортный и красивый!
+                                            <span>
+                                                Я строил его два года. Вложил в строительство много времени, сил и
+                                                финансов.
+                                                Разрабатывал проект вместе со знаменитым дизайнером. Покупал самые
+                                                дорогие
+                                                материалы, Ничего не жалел, ни на чем не экономил, заказывал их из
+                                                Италии,
+                                                Эмиратов, Турции.
+                                            </span>
+                                            <span>
+                                                Но я столкнулся с тем, что пока строили дом, мне три раза меняли
+                                                итальянскую
+                                                столешницу из натурального камня, просто потому что строители были
+                                                неаккуратны.
+                                            </span>
+                                            <span>
+                                                Проблема была в том, что мой друг сказал мне, что после строительства
+                                                его
+                                                дома
+                                                он позвал клининговую компанию, и они испортили полы и мебель. После
+                                                моего
+                                                негативного опыта со строителями, я этого просто не пережил бы.
+                                                — Это означало бы, что мне придется все переделывать.
+                                                — А значит - мое новоселье отложится еще на несколько месяцев, или даже
+                                                больше,
+                                                с учетом пандемии. Мне придется заплатить десятки тысяч долларов просто
+                                                за
+                                                переделку того, что уже создано и создано идеально!
+                                            </span>
+                                            <span>
+                                                Но, к счастью для меня, именно тогда мой прораб рассказал мне, что
+                                                клининг
+                                                может
+                                                не только сделать дом идеально чистым, сохранив интерьер, но и
+                                                подчеркнуть
+                                                все
+                                                достоинства моего строительства и дизайна.
+                                            </span>
+                                            <span>
+                                                Благодаря ему я узнал что клининг - это не просто уборка.
+                                                Мне стало ясно, как мне нужно действовать, чтобы мой дом выглядел так,
+                                                как
+                                                на
+                                                дизайн-проекте!
+                                            </span>
+                                            <span>
+                                                После того, как я понял это, я спросил у прораба проверенные контакты, и
+                                                ими
+                                                оказалась компания "ПрофУборка". Они сразу предложили мне составить
+                                                карту
+                                                уборки
+                                                -бесплатно, чтобы заранее понять, как работать с моим домом с учетом его
+                                                особенностей. И только потом приступить к делу.
+                                            </span>
+                                            <span>
+                                                Я понял, что эта компания действительно внимательна к деталям и знает,
+                                                как
+                                                работать с каждым помещением, с каждой поверхностью. В то время, как
+                                                один
+                                                сотрудник составлял карту уборки, второй сотрудник уже помыл небольшой
+                                                участок
+                                                окна. При том, что я еще ничего не заплатил. И я был впечатлён от
+                                                увиденного
+                                                -
+                                                окно было как новое!
+                                                — Итак, я доверил этой компании свой дом.
+                                                — Компания начала работу. Они работали с утра до вечера 10 дней, а я
+                                                просто
+                                                наблюдал и восхищался преображением моего дома.
+                                            </span>
+                                            <span>
+                                                После уборки, я наконец-то узнал свой дом. Он выглядел в точности, как
+                                                на
+                                                дизайн-проекте. Все детали были подчеркнуты.
+                                                Затем, после всего полученного опыта, я понял, что моя мечта сбылась, и
+                                                я
+                                                действительно буду жить в красоте, которую я заслуживаю, ради которой я
+                                                трудился, работал.
+                                            </span>
+                                            <span>
+                                                Хотя это звучит слишком хорошо, чтобы быть правдой, но теперь я точно
+                                                знаю,
+                                                что
+                                                клининг - это особый вид искусства, продолжение дизайна и строительства,
+                                                и к
+                                                этому этапу стоит отнестись с особым вниманием.</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history_image">
+                        <img src="images/historyPhoto.webp" alt="">
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer_content">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.839970171516!2d34.02766591520243!3d44.415929479102644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4094c6d2f1b937ef%3A0xf6a458654ecf8a9!2z0J_QoNCe0KQuINCj0JHQntCg0JrQkCwg0LrQu9C40L3QuNC90LPQvtCy0LDRjyDQutC-0LzQv9Cw0L3QuNGP!5e0!3m2!1sru!2s!4v1631683742616!5m2!1sru!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy" class="footer_content__map"></iframe>
+                </div>
+
+                <div class="footer_list">
+                    <h2 class="footer_list__title">У вас остались вопросы?</h2>
+                    <p class="footer_list__text">Задайте их прямо сейчас</p>
+                    <div class="footer_list__nums">
+
+                        <a href=""><img src="images/telephone.webp" alt=""></a>
+
+                        <div class="footer_row">
+                            <a href="tel:+9982000328" class="footer_list__num">+998 (71) 200 - 03 - 28</a>
+                            <a href="tel:+99890329-03-28" class="footer_list__num">+998 (90) 329 - 03 - 28</a>
+                            <a href="tel:+99890187-03-28" class="footer_list__num">+998 (90) 187 - 03 - 28</a>
+                        </div>
+                    </div>
+                    <div class="footer_list__nums">
+                        <a href="www.facebook.com\AsiaCleaning">
+                            <img src="images/email.webp" alt="">
+                        </a>
+                        <a href="www.facebook.com\AsiaCleaning"
+                            class="footer_list__styl">www.facebook.com\AsiaCleaning</a>
+                    </div>
+                    <div class="footer_list__nums">
+                        <a href="@profuborka_tashkent" class="telegram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M16.8177 8.50249L10.7318 13.477L10.4454 13.7116C10.3825 13.7615 10.3414 13.8338 10.3309 13.9134L10.2668 14.4425L10.0909 15.9289C10.0925 15.9469 10.0869 15.9649 10.0752 15.9789C10.0636 15.9928 10.0469 16.0016 10.0288 16.0032C10.0107 16.0048 9.99275 15.9992 9.97882 15.9875C9.96488 15.9759 9.95613 15.9592 9.95451 15.9411L9.45951 14.4548L8.94814 12.9343C8.92633 12.8662 8.92912 12.7925 8.95603 12.7263C8.98295 12.66 9.03227 12.6052 9.09542 12.5716L15.4281 8.94158L16.62 8.25976C16.7931 8.15886 16.9704 8.37704 16.8177 8.50249Z"
+                                        fill="#CFF645" />
+                                    <path
+                                        d="M12 0C9.62663 0 7.30655 0.703788 5.33316 2.02236C3.35977 3.34094 1.8217 5.21509 0.913451 7.4078C0.00519945 9.60051 -0.232441 12.0133 0.230582 14.3411C0.693605 16.6689 1.83649 18.8071 3.51472 20.4853C5.19295 22.1635 7.33115 23.3064 9.65892 23.7694C11.9867 24.2324 14.3995 23.9948 16.5922 23.0866C18.7849 22.1783 20.6591 20.6402 21.9776 18.6668C23.2962 16.6935 24 14.3734 24 12C24 8.8174 22.7357 5.76516 20.4853 3.51472C18.2349 1.26428 15.1826 0 12 0V0ZM19.485 6.94636L17.1423 17.2977C17.0318 17.7832 16.4155 18.0027 15.9832 17.7068L12.4459 15.3068L10.6446 17.01C10.5711 17.0789 10.4819 17.1289 10.3848 17.1555C10.2877 17.1822 10.1855 17.1848 10.0872 17.163C9.98881 17.1412 9.89726 17.0958 9.82045 17.0306C9.74363 16.9655 9.68388 16.8826 9.64637 16.7891L8.99591 14.88L8.34546 12.9709L4.85864 12.0164C4.76115 11.9951 4.67342 11.9422 4.6091 11.8659C4.54477 11.7896 4.50745 11.6942 4.50294 11.5945C4.49843 11.4948 4.52698 11.3964 4.58416 11.3147C4.64133 11.2329 4.72393 11.1723 4.8191 11.1423L18.2891 6.28909L18.5373 6.20045C19.0596 6.01773 19.5996 6.44045 19.485 6.94636Z"
+                                        fill="#CFF645" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="@profuborka_tashkent" class="footer_list__styl">@profuborka_tashkent</a>
+                    </div>
+                    <div class="footer_list__nums">
+                        <a href=""><img src="images/instagram.webp" alt=""></a>
+                        <a href="profuborka_uz" class="footer_list__styl">profuborka_uz</a>
+                    </div>
+
+                    <button class="footer_list__btn">Оставить заявку</button>
+                </div>
+
+            </div>
+            <a href="https://webnow.uz/" class="footer_content__href">Разработка сайта Webnow®</a>
+
+        </div>
+        <img src="images/footer_bg.webp" alt="footer" class="footer__bg">
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script/common.js"></script>
+</body>
+
+</html>
